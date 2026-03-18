@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes demo {
+            0%{background-color: violet; top:0px }
+            15%{background-color: indigo; left: 50px;}
+            30%{background-color: blue; left: 100px;}
+            45%{background-color: green; left: 150px;}
+            60%{background-color: yellow; left: 200px;}
+            75%{background-color: orange; left: 300px;}
+            90%{background-color: red;left: 400px;}
+            100%{background-color: cyan; top: 0px; left: 500px;}
+
+        }
+        div{
+            position: relative;
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            animation-name: demo;
+            animation-duration: 7s;
+            animation-delay: 3s;
+            animation-timing-function: ease;
+            animation-iteration-count: 5;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .a {
+        height: 100px;
+        width: 100px;
+        background-color: brown;
+      }
+      .b {
+        height: 100px;
+        width: 100px;
+        background-color: brown;
+      }
+      .c {
+        height: 100px;
+        width: 100px;
+        background-color: brown;
+      }
+      .d {
+        height: 200px;
+        width: 200px;
+        background-color: brown;
+      }
+      .e {
+        height: 200px;
+        width: 200px;
+        background-color: brown;
+      }
+
+      .a:hover {
+        background-image: linear-gradient(red, orange, green);
+      }
+      .b:hover {
+        background-image: linear-gradient(to top, cyan, tomato, black);
+      }
+      .c:hover {
+        background-image: linear-gradient(to top left, darkblue, red, violet);
+      }
+      .d:hover {
+        background-image: radial-gradient( circle,
+          blue,
+          rgb(255, 0, 217),
+          yellow
+        );
+      }
+      .e:hover {
+        background-image: conic-gradient(
+        red 0deg 90deg, green 270deg,yellow
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a">linear-gradient</div>
+    <br />
+    <div class="b">Top-bottom</div>
+    <br />
+    <div class="c">Daigonal</div>
+    <br />
+    <div class="d">Degree</div>
+    <br />
+    <div class="e">Uneven</div>
+  </body>
+</html>

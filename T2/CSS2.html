@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #header{
+            color: blue;
+            background-color: cadetblue;
+        }
+
+        p.abc{
+            color: green;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        p{
+            background-color: brown;
+        }
+
+        #mno{
+            color: aqua;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0.5px;
+            color: black;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 id="header">Id Base</h1>
+    
+    <p id="header">Id Base not valid</p>
+
+    <p>Natural Text</p>
+
+    <h1 class="abc">Class Base</h1>
+
+    <p class="abc">Class Base used without issue</p>
+    
+    <p class="abc" id="mno">Class Base used without issue</p>
+   
+    <p id="mno" class="abc">Class Base used without issue</p>
+</body>
+</html>
