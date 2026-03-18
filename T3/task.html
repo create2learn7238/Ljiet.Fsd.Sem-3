@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="accordion" id="abc">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button bg-primary text-white" data-bs-toggle="collapse" data-bs-target="#c1">Product overview</button>
+            </div>
+            <div class="accordion-collapse collapse show" id="c1" data-bs-parent="#abc">
+                <img src="s1.png" alt="">
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, corrupti ducimus commodi dignissimos libero recusandae quam sit voluptatum delectus eum dolore illo quia in tempore eaque voluptate magni repellat ea sint ad laborum. Provident, deserunt. Nihil deleniti, aperiam odio, sed nostrum et quaerat eveniet quas iste excepturi, accusantium hic. Placeat!
+                <div class="accordion-body"><button class="btn btn-primary">Learn more</button></div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button collapsed bg-primary text-white" data-bs-toggle="collapse" data-bs-target="#c2">
+                    Product 2
+                </button>
+            </div>
+            <div class="accordion-collapse collapse" id="c2" data-bs-parent="#abc">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, adipisci.
+                    <table class="table w-50">
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Feature</th>
+                        <th scope="col">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Size</td>
+                            <td>Mediam</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Color</td>
+                            <td>blue</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Weight</td>
+                            <td>1.2kg</td>
+
+                    </tbody>
+                    </table>
+                    <div class="accordion-body"><button class="btn btn-success">download</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button collapsed bg-primary text-white" data-bs-toggle="collapse" data-bs-target="#c3">
+                    Product 3
+                </button>
+            </div>
+            <div class="accordion-collapse collapse" id="c3" data-bs-parent="#abc">
+                <div class="accordion-body">
+                    <img src="s1.png" alt="">
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aut, nihil impedit eaque vitae ipsa doloremque id soluta, explicabo in dignissimos quaerat? Velit totam, dolore ipsam, minima, maiores nemo architecto necessitatibus incidunt odit maxime unde sapiente suscipit ducimus iusto expedita?
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

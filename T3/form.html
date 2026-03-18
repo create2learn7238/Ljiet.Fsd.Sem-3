@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-lg">
+      <form>
+        <div class="mx-5">
+          <label class="form-label">
+            Username :
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your name"
+            />
+          </label>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">
+            Mail :
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+          </label>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">
+            Pass :
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Enter your password"
+            />
+          </label>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label"> select City : </label>
+          <select class="form-select">
+            <optgroup label="Asia">
+              <option value="">India</option>
+              <option value="">Nepal</option>
+              <option value="">Bangladesh</option>
+            </optgroup>
+            <optgroup label="Austrliya">
+              <option value="">Gabba</option>
+              <option value="">Melborne</option>
+              <option value="">Perth</option>
+              <option value="">Sedney</option>
+              <option value="">Oval</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div class="form-check mb-3">
+          <input
+            type="radio"
+            name="opt"
+            class="form-check-input"
+            id=""
+            checked
+          />
+          <label for="" class="form-check-label">Male</label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="myswitch"
+            checked
+          />
+          <label for="myswitch" class="form-check-label">ON/OFF</label>
+        </div>
+
+        <div class="input-group">
+          <span class="input-group-text">Upload </span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Name of the author"
+          />
+        </div>
+
+        <div>
+          <input
+            type="range"
+            name=""
+            id=""
+            class="form-range"
+            min="1"
+            max="100"
+            step="10"
+          />
+        </div>
+        <p>1 to 100 with jump 10</p>
+        <div>
+          <input
+            type="range"
+            name=""
+            id=""
+            class="form-range"
+            min="0"
+            max="100"
+            step="10"
+          />
+        </div>
+        <p>0 to 100 with jump 10</p>
+      </form>
+    </div>
+  </body>
+</html>
