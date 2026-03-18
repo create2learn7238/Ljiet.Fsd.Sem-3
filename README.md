@@ -1,18 +1,5 @@
 # 📚 Full Stack Development with JavaScript - 1
 
-## 📋 Course Overview
-
-| Component | Details |
-|-----------|---------|
-| **Lectures (L)** | 3 |
-| **Tutorials (T)** | 0 |
-| **Practicals (P)** | 6 |
-| **Credits** | 6 |
-| **Total Hours** | 30 |
-
-This course covers the fundamentals of **Full Stack Web Development** using **HTML**, **CSS**, **Bootstrap**, and **JavaScript (ES6)**. Students will learn to build responsive, interactive, and dynamic web applications from scratch.
-
----
 
 ## 🎯 Course Outcomes
 
